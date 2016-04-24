@@ -13,7 +13,7 @@
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
             <android.support.v7.widget.Toolbar
@@ -28,18 +28,6 @@
         </android.support.design.widget.AppBarLayout>
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="360dp"
-                android:layout_height="590dp"
-                android:id="@+id/imageView5"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/list"
-                android:layout_marginTop="30dp" />
-        </LinearLayout>
         <!-- This LinearLayout represents the contents of the screen  -->
 
         <LinearLayout
@@ -48,6 +36,237 @@
             android:orientation="vertical"
             android:weightSum="1">
 
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/onesideborder"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp"
+                android:id="@+id/pizzadiscount">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="73dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/domino" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Domino&apos;s Pizza"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="177dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Bij elke bestelling een gratis drank"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="&#8364; 16"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="40dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_favorite" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/onesideborder"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="73dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/burgerking" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Burger King"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="177dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="50 procent korting op je tweede burger"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="50&#37;"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="40dp" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_favorite" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/onesideborder"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="73dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/mcdonalds" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mac Donald"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="177dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Twee burgers voor een goedkopere prijs"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="&#8364; 8"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="40dp" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_favorite" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/onesideborder"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="73dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/kc" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="10dp"
+                    android:text="KFC"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="177dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Een grote familiebucket is nu goedkoper"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="20&#37;"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="40dp" />
+
+                <ImageView
+                    android:id="@+id/imageView36"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_favorite" />
+
+            </FrameLayout>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/fab"
                 android:layout_width="75dp"
@@ -61,8 +280,7 @@
                 android:layout_marginTop="450dp" />
 
 
-
-            <!--<FrameLayout-->
+        <!--<FrameLayout-->
                 <!--android:id="@+id/flContent"-->
                 <!--android:layout_width="match_parent"-->
                 <!--android:layout_height="match_parent" />-->
